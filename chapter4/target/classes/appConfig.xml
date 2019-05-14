@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd" >
+
+    <context:annotation-config/>
+
+    <bean id = "methodInitBean"
+          class="com.johnpank.chapter4.MethodInitBean"
+          lazy-init="true"
+    init-method="initMethod"
+    destroy-method="destroyMethod"/>
+
+    <bean id="interfaceInitBean"
+          class="com.johnpank.chapter4.InterfaceInitBean"
+          lazy-init="true"/>
+
+    <bean id="annotationInitBean"
+          class="com.johnpank.chapter4.AnnotationInitBean"
+          lazy-init="true"/>
+
+    <bean id="whatMyNameBean"
+          class="com.johnpank.chapter4.WhatMyNameBean"/>
+
+    <bean name="customEditorConfigurer"
+          class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="com.johnpank.chapter4.Name"
+                       value="com.johnpank.chapter4.NamePropertyEditor"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean name="nameShowerBean"
+          class="com.johnpank.chapter4.NameShower"
+          p:name = "John Pank"/>
+
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource"
+          p:basenames-ref="basenames"/>
+
+    <util:list id="basenames">
+        <value>strings</value>
+    </util:list>
+
+    <bean id="multiLanguageBean"
+          class="com.johnpank.chapter4.MultiLanguageBean"/>
+
+</beans>
