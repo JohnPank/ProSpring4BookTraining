@@ -9,9 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class AppConfig {
     @Bean
-    public BeanWithSomeMethod bwsm(){
-        return new BeanWithSomeMethod();
-    }
+    public BeanWithSomeMethod bwsm(){ return new BeanWithSomeMethod(); }
 
     @Bean
     public AspectJAdvice aspectJAdvice(){
