@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="569c9af3-4355-4559-ac2d-b5e767ebef42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter5/src/com/johnpank/chapter5/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/src/com/johnpank/chapter5/AppConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="569c9af3-4355-4559-ac2d-b5e767ebef42" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="18" />
     <option name="width" value="1743" />
     <option name="height" value="1040" />
@@ -233,6 +230,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="database.data.extractors.current.id" value="HTML-JavaScript.html.js" />
@@ -268,8 +266,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="0" width="1743" height="1040" extended-state="1" />
-    <editor active="true" />
+    <frame x="18" y="0" width="1743" height="1040" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17409389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
