@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fd50f5-bad6-413a-9fd7-b8ed9e6927b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter6/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5854c042-4bd4-4012-8ba5-ae421cdaa517" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c7886d3a-8c65-4fba-8156-c97d1c02b54c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBTools" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/mainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/usersNotes.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/usersNotes.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/DBContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/DBTools" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/SQLiteDialect$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/SQLiteDialect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/mainClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/models/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/com/johnpank/chapter7/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resourses/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resourses/usersNotes.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resourses/usersNotes.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/johnpank/chapter7/DBContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/johnpank/chapter7/mainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/johnpank/chapter7/mainClass.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,38 +48,131 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - usersNotes" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - usersNotes" type="feb32156:DbDataSourceImpl" />
+        <item name="USERSNOTES: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - usersNotes" type="feb32156:DbDataSourceImpl" />
+        <item name="USERSNOTES: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter7/mainClass.java">
+        <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/mainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="219">
+              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
               <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter7/DBContract.java">
+        <entry file="file://$PROJECT_DIR$/.idea/dataSources/c7886d3a-8c65-4fba-8156-c97d1c02b54c.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-1173" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resourses/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="355">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#911#917#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1867#1868#0" expanded="true" />
+                <element signature="e#1901#1902#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#update#0;class#UserDAO#0" />
+                <element signature="method#delete#0;class#UserDAO#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/Note.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-206">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +182,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,9 +193,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/java/com/johnpank/chapter7/models/Note.java" />
+        <option value="$PROJECT_DIR$/src/java/com/johnpank/chapter7/models/User.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/SQLiteDialect.java" />
+        <option value="$PROJECT_DIR$/src/resourses/com/johnpank/chapter7/models/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a6e15c49-169d-4918-b502-f16fb4d298e8/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/com/johnpank/chapter7/mainClass.java" />
-        <option value="$PROJECT_DIR$/src/com/johnpank/chapter7/DBContract.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBContract.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBTools" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/UserDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/Note.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/User.java" />
+        <option value="$PROJECT_DIR$/src/code/com/johnpank/chapter7/mainClass.java" />
+        <option value="$PROJECT_DIR$/src/resourses/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -79,15 +222,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="hibernateTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="18" />
-    <option name="width" value="1743" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="37" />
+    <option name="width" value="1802" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,6 +261,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter7" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,12 +288,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;h2&#10;mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JavaProject\ProSpring4\chapter7\src\resourses" />
+      <recent name="C:\JavaProject\ProSpring4\chapter7\src\java\com\johnpank\chapter7" />
+      <recent name="C:\JavaProject\ProSpring4\chapter7\src\java\com\johnpank\chapter7\models" />
+      <recent name="C:\JavaProject\ProSpring4\chapter7\src\java\com\johnpank\chapter7\dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,9 +316,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.mainClass (1)">
+    <configuration name="mainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.com.johnpank.chapter7.mainClass" />
+      <module name="chapter7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.johnpank.chapter7.mainClass" />
+      <option name="MAIN_CLASS_NAME" value="java.com.johnpank.chapter7.mainClass" />
       <module name="chapter7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,67 +333,260 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainClass (1)" />
         <item itemvalue="Application.mainClass" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="0" width="1743" height="1040" extended-state="0" />
+    <frame x="37" y="0" width="1802" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25549614" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3299435" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32976827" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Designer" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21067739" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3299435" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5006974" side_tool="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Database Console" order="3" weight="0.3299435" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3299435" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49930266" weight="0.3299435" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.16934557" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.28940028" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter7/mainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/resourses/usersNotesDB.sql" />
+    <entry file="das://d9dfc1b5-7828-43d6-ae38-6bc98b5c9128/schema/main/table/notes" />
+    <entry file="das://d9dfc1b5-7828-43d6-ae38-6bc98b5c9128/schema/main/table/users" />
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/SQLiteDialect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="-118">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4396#4397#0" expanded="true" />
+            <element signature="e#4566#4567#0" expanded="true" />
+            <element signature="e#4630#4631#0" expanded="true" />
+            <element signature="e#5085#5086#0" expanded="true" />
+            <element signature="e#5136#5137#0" expanded="true" />
+            <element signature="e#5174#5175#0" expanded="true" />
+            <element signature="e#5201#5202#0" expanded="true" />
+            <element signature="e#5259#5260#0" expanded="true" />
+            <element signature="e#5286#5287#0" expanded="true" />
+            <element signature="e#5593#5594#0" expanded="true" />
+            <element signature="e#5620#5621#0" expanded="true" />
+            <element signature="e#5673#5674#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5785#5786#0" expanded="true" />
+            <element signature="e#5829#5830#0" expanded="true" />
+            <element signature="e#5887#5888#0" expanded="true" />
+            <element signature="e#5914#5915#0" expanded="true" />
+            <element signature="e#5977#5978#0" expanded="true" />
+            <element signature="e#6005#6006#0" expanded="true" />
+            <element signature="e#6060#6061#0" expanded="true" />
+            <element signature="e#6109#6110#0" expanded="true" />
+            <element signature="e#6150#6151#0" expanded="true" />
+            <element signature="e#6177#6178#0" expanded="true" />
+            <element signature="e#6215#6216#0" expanded="true" />
+            <element signature="e#6279#6280#0" expanded="true" />
+            <element signature="e#6319#6320#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6425#6426#0" expanded="true" />
+            <element signature="e#6468#6469#0" expanded="true" />
+            <element signature="e#6493#6494#0" expanded="true" />
+            <element signature="e#6544#6545#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#7361#7362#0" expanded="true" />
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7434#7435#0" expanded="true" />
+            <element signature="e#7461#7462#0" expanded="true" />
+            <element signature="e#7672#7673#0" expanded="true" />
+            <element signature="e#7700#7701#0" expanded="true" />
+            <element signature="e#7743#7744#0" expanded="true" />
+            <element signature="e#7794#7795#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter7/DBContract.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a6e15c49-169d-4918-b502-f16fb4d298e8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9e767b8a-f261-4283-8c11-96ebbabb8927/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7886d3a-8c65-4fba-8156-c97d1c02b54c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9189998b-b243-4b66-837b-7d3d831a57a5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resourses/com/johnpank/chapter7/models/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7886d3a-8c65-4fba-8156-c97d1c02b54c/database/USERSNOTES/schema/PUBLIC/table/NOTES.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DBTools">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="192">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7886d3a-8c65-4fba-8156-c97d1c02b54c/database/USERSNOTES/schema/PUBLIC/table/USERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c925727d-955c-46f8-89f1-2a882d9e424d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#UserDAO#0" />
+            <element signature="method#delete#0;class#UserDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#917#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c7886d3a-8c65-4fba-8156-c97d1c02b54c/database/USERSNOTES/schema/PUBLIC/table/NOTES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c925727d-955c-46f8-89f1-2a882d9e424d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/com/johnpank/chapter7/mainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/c7886d3a-8c65-4fba-8156-c97d1c02b54c.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resourses/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>

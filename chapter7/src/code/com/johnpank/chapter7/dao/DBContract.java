@@ -1,8 +1,8 @@
-package com.johnpank.chapter7;
+package code.com.johnpank.chapter7.dao;
 
 public class DBContract {
 
-    public static final String DB_NAMES = "notebook";
+    public static final String DB_NAMES = "usersNotes";
 
     //------users-------
     public static final String USERS_TABLE = "users";
