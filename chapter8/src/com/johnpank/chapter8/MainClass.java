@@ -5,7 +5,6 @@ import com.johnpank.chapter8.models.Client;
 import com.johnpank.chapter8.repository.ClientRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.*;
 
 public class MainClass {
 
@@ -19,7 +18,7 @@ public class MainClass {
         System.out.println("Start");
 
         //region create 1000 clients
-//
+
 //        for (int i = 0; i < 1000; i++) {
 //            Client client = new ClientGenerator().getClient();
 //            clientRepository.save(client);
@@ -36,8 +35,8 @@ public class MainClass {
 //            client.setAccounts(accounts);
 //            clientRepository.save(client);
 //        }
-//
-        //end region
+
+        //endregion
 
         //Optional<Client>  clientOptional = clientRepository.findById(359L);
         //Client client = clientOptional.get();
@@ -87,15 +86,5 @@ public class MainClass {
         System.out.println("End");
 
         context.close();
-
-//        for (int i = 0; i < 20; i++) {
-//            //Client client = new ClientGenerator().getClient();
-//            //System.out.println(client);
-//            Account account = new AccGenerator().getAccount();
-//            System.out.println(account);
-//
-//        }
-
-
     }
 }

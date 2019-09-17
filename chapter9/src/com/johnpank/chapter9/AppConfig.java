@@ -1,4 +1,4 @@
-package com.johnpank.chapter8;
+package com.johnpank.chapter9;
 
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
@@ -16,18 +16,18 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.johnpank.chapter8")
-@EnableJpaRepositories("com.johnpank.chapter8.repository")
+@ComponentScan("com.johnpank.chapter9")
+@EnableJpaRepositories("com.johnpank.chapter9.repository")
 public class AppConfig {
 
     private static final String PROP_DATABASE_DRIVER = "org.h2.Driver";
-    private static final String PROP_DATABASE_URL = "jdbc:h2:C:/JavaProject/ProSpring4/chapter8/src/com/johnpank/chapter8/db/clientsAccounts";
+    private static final String PROP_DATABASE_URL = "jdbc:h2:C:/JavaProject/ProSpring4/chapter9/src/com/johnpank/chapter9/db/gamers";
     private static final String PROP_DATABASE_USERNAME = "admin";
     private static final String PROP_DATABASE_PASSWORD = "admin";
 
     private static final String PROP_HIBERNATE_DIALECT = "org.hibernate.dialect.H2Dialect";
     private static final String PROP_HIBERNATE_SHOW_SQL = "true";
-    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "com.johnpank.chapter8.models";
+    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "com.johnpank.chapter9.model";
     private static final String PROP_HIBERNATE_HBM2DDL_AUTO = "update";
 
     @Bean
