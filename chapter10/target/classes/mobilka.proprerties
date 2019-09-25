@@ -1,0 +1,10 @@
+date.pattern=yyyy-mm-dd
+
+mobilka.vendor=Motorola
+mobilka.model=C380
+mobilka.release=2005-06-15
+
+smart.vendor=Huawei
+smart.model=Y3_2017
+smart.release=2017-03-01
+smart.androidVerAPI=23

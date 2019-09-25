@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43dc67c-556b-4a53-8c85-83ac366ba02d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter8/src/com/johnpank/chapter8/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/src/com/johnpank/chapter8/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter8/src/com/johnpank/chapter8/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/src/com/johnpank/chapter8/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/db/clientsAccounts.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter8/target/classes/com/johnpank/chapter8/db/clientsAccounts.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/johnpank/chapter9/db/gamers.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/johnpank/chapter9/db/gamers.mv.db" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,13 +26,17 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,7 +72,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/service/GamerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="692">
               <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/repository/GamerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,10 +194,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/johnpank/chapter9/db/gamers.mv.db" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -239,7 +239,7 @@
     <frame x="207" y="0" width="1481" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25686136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -289,16 +289,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/95ba9f4f-30f6-4a33-bbde-9a631a2ac19e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/service/GamerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -320,16 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/repository/GamerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/ELOCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -347,9 +327,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/repository/GamerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/johnpank/chapter9/service/GamerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="692">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
