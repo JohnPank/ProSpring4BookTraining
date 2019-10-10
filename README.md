@@ -12,9 +12,10 @@ Ch8: JPA 2
 Ch9: Transaction
 
 "ProSpring 5" book 2019
+Ch10: TascSheduler and @Async 
+
 //ToDo
 
-Ch10: 
 Ch11: 
 Ch12: 
 Ch13: 
