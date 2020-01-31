@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'application'        //run application task
+    id 'war'                //build war-file
+}
+
+war.archiveBaseName = 'webAppByJohn'
+//war.archiveVersion = '1.0'
+
+mainClassName = 'com.johnpank.prospring4.chapter12.MainClass'
+
+group 'com.johnpank.prospring4.chapter12'
+//version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'                                      //tests
+    compile group: 'com.h2database', name: 'h2', version: '1.4.193'                                 //dataBase driver
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.6.Final'                  //hibernate
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.1.10.RELEASE'   //jpa2
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.1.RELEASE'
+    
+    compile group: 'org.springframework.security', name: 'spring-security-web', version: '5.2.1.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: '5.2.1.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-config', version: '5.2.1.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '5.2.1.RELEASE'
+
+    compile group: 'org.springframework', name: 'spring-oxm', version: '5.2.1.RELEASE'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.1'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.10'
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
+    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+
+    // https://mvnrepository.com/artifact/jstl/jstl
+    compile group: 'jstl', name: 'jstl', version: '1.2'
+
+//    logging
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.0-alpha1'
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha1'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+}
+
+//compile group: '', name: '', version: ''

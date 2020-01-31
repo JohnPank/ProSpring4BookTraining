@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="chapter12.main" target="1.8" />
+      <module name="chapter12.test" target="1.8" />
+      <module name="com.johnpank.prospring4.chapter12.chapter12.main" target="1.8" />
+      <module name="com.johnpank.prospring4.chapter12.chapter12.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -12,12 +12,12 @@ Ch8: JPA 2
 Ch9: Transaction
 
 "ProSpring 5" book 2019
-Ch10: TascSheduler and @Async 
+Ch10: Formating and validation 
+Ch11: TascSheduler and @Async 
+Ch12: Remote handling
 
-//ToDo
-
-Ch11: 
-Ch12: 
+//ToDo 
+ 
 Ch13: 
 Ch14: 
 Ch15:
