@@ -1,8 +1,7 @@
-2020-01-31 11:42:28,035 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+2020-02-11 13:36:57,406 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2020-01-31 11:42:28,125 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.6.Final}
-2020-01-31 11:42:28,126 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2020-01-31 11:42:28,174 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2020-01-31 11:42:28,456 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-01-31 11:42:43,313 [http-nio-8081-exec-6] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-02-11 13:36:57,494 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.6.Final}
+2020-02-11 13:36:57,496 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-02-11 13:36:57,544 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-02-11 13:36:57,814 [RMI TCP Connection(2)-127.0.0.1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect

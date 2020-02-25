@@ -1,0 +1,48 @@
+2020-02-20 16:23:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (id, email, name, password) values (null, ?, ?, ?) [42102-193]
+2020-02-20 16:23:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (id, email, name, password) values (null, ?, ?, ?) [42102-193]
+2020-02-20 16:25:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (id, email, name, password) values (null, ?, ?, ?) [42102-193]
+2020-02-20 16:25:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (id, email, name, password) values (null, ?, ?, ?) [42102-193]
+2020-02-21 13:07:56 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "insert into users(id, name, password, email) values ('1', testUser1', 'testPassword1', 'test1@email.com[*]');"
+Syntax error in SQL statement "insert into users(id, name, password, email) values ('1', testUser1', 'testPassword1', 'test1@email.com[*]');"; SQL statement:
+insert into users(id, name, password, email) values ('1', testUser1', 'testPassword1', 'test1@email.com'); [42000-193]
+2020-02-21 13:21:16 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "insert into users(name, password, email) values (testUser1', 'testPassword1', 'test1@email.com[*]');"
+Syntax error in SQL statement "insert into users(name, password, email) values (testUser1', 'testPassword1', 'test1@email.com[*]');"; SQL statement:
+insert into users(name, password, email) values (testUser1', 'testPassword1', 'test1@email.com'); [42000-193]
+2020-02-21 13:45:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users(name, password, email) values ('testUser1', 'testPassword1', 'test1@email.com') [42102-193]
+2020-02-21 13:45:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+delete from users [42102-193]
+2020-02-21 13:49:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "CREATE TABLE USERS ( ID INT AUTOINCREMENT[*] NAME VARCHAR(50) NOT NULL, PASSWORD VARCHAR(50) NOT NULL, EMAIL VARCHAR(50) NOT NULL, PRIMARY KEY(ID) ) "; ожидалось "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE USERS ( ID INT AUTOINCREMENT[*] NAME VARCHAR(50) NOT NULL, PASSWORD VARCHAR(50) NOT NULL, EMAIL VARCHAR(50) NOT NULL, PRIMARY KEY(ID) ) "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE users ( id INT AUTOINCREMENT name VARCHAR(50) NOT NULL, password VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL, PRIMARY KEY(id) ) [42001-193]
+2020-02-21 13:49:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+delete from users [42102-193]
+2020-02-21 13:50:01 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "CREATE TABLE USERS ( ID INT AUTOINCREMENT[*], NAME VARCHAR(50) NOT NULL, PASSWORD VARCHAR(50) NOT NULL, EMAIL VARCHAR(50) NOT NULL, PRIMARY KEY(ID) ) "; ожидалось "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE USERS ( ID INT AUTOINCREMENT[*], NAME VARCHAR(50) NOT NULL, PASSWORD VARCHAR(50) NOT NULL, EMAIL VARCHAR(50) NOT NULL, PRIMARY KEY(ID) ) "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE users ( id INT AUTOINCREMENT, name VARCHAR(50) NOT NULL, password VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL, PRIMARY KEY(id) ) [42001-193]
+2020-02-21 13:50:01 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+delete from users [42102-193]
