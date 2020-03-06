@@ -28,7 +28,7 @@ dependencies {
     // https://mvnrepository.com/artifact/com.h2database/h2
     compile group: 'com.h2database', name: 'h2', version: '1.4.193'               //dataBase driver
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core
-    compile group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.0.0.Alpha4'                 //hibernate
+    compile group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.0.0.Alpha4'       //hibernate
     // https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
     compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.2.4.RELEASE'    //jpa2
     // https://mvnrepository.com/artifact/org.springframework/spring-webmvc

@@ -1,18 +1,31 @@
 package com.johnpank.prospring4.chapter13.config;
 
+import com.johnpank.prospring4.chapter13.monitoring.AppStatistic;
+import com.johnpank.prospring4.chapter13.monitoring.AppStatisticImpl;
+import org.hibernate.SessionFactory;
+import org.hibernate.engine.spi.SessionFactoryImplementor;
 import org.hibernate.jpa.HibernatePersistenceProvider;
+import org.hibernate.stat.Statistics;
+import org.hibernate.stat.internal.StatisticsImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.MBeanExportConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.jmx.export.MBeanExporter;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
+import java.beans.Customizer;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 
@@ -66,6 +79,10 @@ public class AppConfig {
         properties.put("hibernate.dialect", PROP_HIBERNATE_DIALECT);
         properties.put("hibernate.show_sql", PROP_HIBERNATE_SHOW_SQL);
         properties.put("hibernate.hbm2ddl.auto", PROP_HIBERNATE_HBM2DDL_AUTO);
+        //monitoring
+        properties.put("hibernate.jmx.enabled", true);
+        properties.put("hibernate.generate_statistics", true);
+        properties.put("hibernate.session_factory name", "sessionFactory");
         return properties;
     }
 

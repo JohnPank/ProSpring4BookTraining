@@ -15,12 +15,12 @@ Ch9: Transaction
 Ch10: Formating and validation 
 Ch11: TascSheduler and @Async 
 Ch12: Remote handling
+Ch13: Testing
 
 //ToDo 
- 
-Ch13: 
-Ch14: 
-Ch15:
+
+Ch14: Script(Groovy)
+Ch15: Monitoring
 Ch16:
 Ch17:
 Ch18:

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-21T12:29:45" hostname="johnpank-System" time="0.246">
+<testsuite name="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-28T06:51:16" hostname="johnpank-System" time="0.287">
   <properties/>
-  <testcase name="delete()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.029"/>
-  <testcase name="findAll()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.135"/>
-  <testcase name="findById()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.041"/>
-  <testcase name="save()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.034"/>
+  <testcase name="delete()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.028"/>
+  <testcase name="findAll()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.172"/>
+  <testcase name="findById()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.047"/>
+  <testcase name="save()" classname="com.johnpank.prospring4.chapter13.service.UserServiceImplTest" time="0.036"/>
   <system-out><![CDATA[Hibernate: select u1_0.id, u1_0.email, u1_0.name, u1_0.password from users as u1_0
 3
 Hibernate: select u1_0.id, u1_0.email, u1_0.name, u1_0.password from users as u1_0 where u1_0.id = ?
@@ -13,15 +13,15 @@ Hibernate: insert into users (id, email, name, password) values (null, ?, ?, ?)
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-февр. 21, 2020 3:29:44 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+февр. 28, 2020 9:51:14 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
-февр. 21, 2020 3:29:44 PM org.hibernate.Version logVersion
+февр. 28, 2020 9:51:14 AM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {6.0.0.Alpha4}
-февр. 21, 2020 3:29:44 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+февр. 28, 2020 9:51:14 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-февр. 21, 2020 3:29:44 PM org.hibernate.dialect.Dialect <init>
+февр. 28, 2020 9:51:15 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-февр. 21, 2020 3:29:45 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+февр. 28, 2020 9:51:16 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 ]]></system-err>
 </testsuite>
